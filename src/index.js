@@ -52,6 +52,17 @@ function openNoti() {
     }else if(personasRegistradas.length >= 0){
         notificacionesOff.classList.remove('inactive');
         notificacionesOm.classList.add('inactive');
+        setTimeout(function(){
+            notificacionesOff.classList.add('imgNotiAnimation')
+    },100);
+    setTimeout(function(){
+        notificacionesOff.classList.add('imgNotiAnimation2')
+},200);
+    setTimeout(function(){
+    notificacionesOff.classList.remove('imgNotiAnimation')
+    notificacionesOff.classList.remove('imgNotiAnimation2')
+},300);
+    
     }
 }
 
