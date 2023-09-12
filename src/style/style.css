@@ -12,6 +12,19 @@ html{
 
     font-size: 62.5%;
 }
+.imgNoti{
+    width: 30px;
+    height: 25px;
+    margin-left: auto;
+    position: absolute;
+    right: 1%;
+}
+.imgNotic{
+    width: 34px;
+    height: 25px;
+    position: absolute;
+    right: 1%;
+}
 main{
     padding: 20px;
     text-align: center;
@@ -121,6 +134,21 @@ main section div a{
 .sectionProfessional div a {
     color: #696FDD;
     background: #fff;
+}
+
+/* notificaciones */
+
+.notification{
+    position: absolute;
+    width: 250px;
+    top: 6%;
+    right: 40px;
+    background: #fff;
+    box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.75);
+    border-radius: 15px 0 15px 15px;
+    color:#6C708D;
+    font-size: 1.4rem;
+    padding: 20px 10px;
 }
 
 /* invalive */
