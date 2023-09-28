@@ -24,6 +24,8 @@ const notificacionesOm = document.querySelector(".imgNotic")
 const notification = document.querySelector(".notification")
 const divContainer = document.getElementById('NotifiContainer');
 
+const audio = new Audio("https://www.youtube.com/watch?v=SINmOCeSayw");
+
 const sectionsGenerales = [sectionBasic,sectionProfessional,sectionMaster]
 const numberAnual = [numberAnual1,numberAnual2,numberAnual3];
 const numberMensual = [numberMensual1,numberMensual2,numberMensual3];
@@ -40,6 +42,8 @@ containerBoll.addEventListener('click',openAnual);
 containerBoll.addEventListener('click', offButton);
 notificacionesOff.addEventListener('click',seenNotifications)
 notificacionesOff.addEventListener('click' , offNoti);
+
+LEARNMore.addEventListener("click",audio.play());
 
 
 
